@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+
+} *, *:before, *:after {box-sizing: inherit;
+  margin: 10px;
+}
+
+body {
+  font-family: avenir, sans-serif;
+  position: relative;
+  font-size: 15px;
+  padding: 0;
+}
+
+.sidebar {
+  position: fixed;
+  width: 250px;
+  top: 0px;
+  left: 0px;
+  font-variant-caps: all-petite-caps;
+  border: 1px solid red;
+}
+
+.Adios {
+  position: fixed;
+  width: 40%;
+  left: 250px;
+  text-align: center;
+  border: 1px solid blue;
+  clear: both;
+
+}
+
+.right {
+  float: right;
+  width: 45%;
+  border: 1px solid cyan;
+}
