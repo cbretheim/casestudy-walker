@@ -21,18 +21,51 @@ body {
   border: 1px solid red;
 }
 
+li {
+  line-height: .9em;
+  list-style: none;
+}
+
+ul {
+  border: 1px solid green;
+  padding: 0px;
+}
+
+.sidebararticle {
+  border-bottom: 1px solid black;
+}
+
+h1 {
+  font-size: 5em;
+  text-align: center;
+margin: 0;
+border: 1px solid maroon;
+}
+
 .Adios {
   position: fixed;
   width: 40%;
+  top: 0;
   left: 250px;
   text-align: center;
   border: 1px solid blue;
-  clear: both;
+  clear: right;
+}
 
+.Adios img {
+  width: 100%;
+  margin: 0;
 }
 
 .right {
-  float: right;
-  width: 45%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40%;
+  max-width: 800px;
   border: 1px solid cyan;
+}
+
+.right h1 {
+  font-size: 2em;
 }
