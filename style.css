@@ -2,7 +2,6 @@ html {
   box-sizing: border-box;
 
 } *, *:before, *:after {box-sizing: inherit;
-  margin: 10px;
 }
 
 body {
@@ -17,33 +16,36 @@ body {
   width: 250px;
   top: 0px;
   left: 0px;
+  padding: 0 20px;
   font-variant-caps: all-petite-caps;
-  border: 1px solid red;
 }
 
 li {
-  line-height: .9em;
+  line-height: 1.2em;
   list-style: none;
 }
 
+li a {
+  text-decoration: none;
+  color: black;
+}
+
 ul {
-  border: 1px solid green;
   padding: 0px;
 }
 
 .sidebararticle {
-  border-bottom: 1px solid black;
+  border-top: 1px solid black;
 }
 
 h1 {
-  font-size: 5em;
+  font-size: 4.5em;
   text-align: center;
 margin: 0;
-border: 1px solid maroon;
 }
 
 .Adios {
-  position: fixed;
+  position: relative;
   width: 40%;
   top: 0;
   left: 250px;
