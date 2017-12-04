@@ -9,6 +9,8 @@ body {
   position: relative;
   font-size: 15px;
   padding: 0;
+  overflow: scroll;
+
 }
 
 .sidebar {
@@ -44,6 +46,8 @@ h1 {
 margin: 0;
 }
 
+/*ADIOS UTOPIA SECTION*/
+
 .Adios {
   position: relative;
   width: 40%;
@@ -59,6 +63,9 @@ margin: 0;
   margin: 0;
 }
 
+/*RIGHT SCROLL SECTION*/
+
+
 .right {
   position: fixed;
   top: 0;
@@ -68,6 +75,15 @@ margin: 0;
   border: 1px solid cyan;
 }
 
+.right article {
+  border-bottom: 5px solid #efefef;
+  padding: 15px 0;
+}
+
 .right h1 {
   font-size: 2em;
+}
+
+.right img {
+  width: 100%;
 }
