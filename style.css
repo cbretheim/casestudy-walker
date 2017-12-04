@@ -13,6 +13,9 @@ body {
 
 }
 
+
+/*SIDEBAR*/
+
 .sidebar {
   position: fixed;
   width: 250px;
@@ -40,11 +43,33 @@ ul {
   border-top: 1px solid black;
 }
 
+.sidebararticle h3 {
+  text-align: center;
+}
+
+.sidebararticle h3 a {
+color: black;
+font-weight: normal;
+}
+
+.sidebararticle p {
+  text-align: center;
+}
+
 h1 {
   font-size: 4.5em;
   text-align: center;
 margin: 0;
 }
+
+#more {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 20px 30px;
+}
+/*END OF SIDEBAR*/
 
 /*ADIOS UTOPIA SECTION*/
 
@@ -54,7 +79,6 @@ margin: 0;
   top: 0;
   left: 250px;
   text-align: center;
-  border: 1px solid blue;
   clear: right;
 }
 
@@ -72,7 +96,7 @@ margin: 0;
   right: 0;
   width: 40%;
   max-width: 800px;
-  border: 1px solid cyan;
+  margin: 0 15px;
 }
 
 .right article {
