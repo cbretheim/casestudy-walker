@@ -96,6 +96,8 @@ position: fixed;
   position: relative;
   z-index: -10;
   display: block;
+  min-height: 100%;
+  min-width: 100%;
 }
 .adios_content{
   position: absolute;
@@ -184,10 +186,15 @@ button {
   margin-right: 15px;
 }
 
+.slideshow {
+  overflow: hidden;
+  position: relative;
+}
+
 .slides {
   float: left;
-  max-width: 270px;
-  margin-top: 10px;
+  max-width: 250px;
+  margin-top: 20px;
   clear: both;
 }
 
@@ -214,4 +221,9 @@ button {
   font-family: baskerville, serif;
   font-size: 1.2em;
   color: #555;
+}
+
+.type {
+  max-width: 80px;
+  margin-top: 10px;
 }
