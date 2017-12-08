@@ -5,6 +5,8 @@
     <title>Walker Art Center</title>
     <link type="text/css" rel="stylesheet" href="normalize.css">
     <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" href="main.js">
+
   </head>
 
   <body>
@@ -49,10 +51,10 @@
 
     <section class="Adios">
       <div class="adios_content">
-        <h3>On View Now</h3>
-        <h1>Adios Utopia</h1>
+        <h3 id="onview">On View Now</h3>
+          <img src="https://s3.amazonaws.com/wac-imgix/cms/adios-zipper-11-30-small2-01.svg?w=1200&amp;dpr=1.5" alt="" class="wac-cover-image">
         <h2>Dreams and Deceptions in Cuban Art since 1950</h2>
-        <h3>View the Exhibition</h3>
+        <h3 id="exhibition">View the Exhibition</h3>
       </div>
       <img src="images/adiosutopia.jpeg" alt="Adios Utopia Poster">
     </section>
@@ -68,8 +70,9 @@
         <a href="#" class="bordertext" id="exhibitions">EXHIBITIONS ON VIEW</a>
         <a href="#" class="bordertext" id="seeall">SEE ALL</a>
 
+        <button class="arrow-right" onclick="plusDivs(+1)">&#10095;</button>
         <button class="arrow-left" onclick="plusDivs(-1)">&#10094;</button>
-<button class="arrow-right" onclick="plusDivs(+1)">&#10095;</button>
+
 
         <img class="slides" src="images/slideshow/nairy.png" alt="Nairy Baghramian">
         <caption>SEP 7, 2017-FEB 4, 2018</caption>

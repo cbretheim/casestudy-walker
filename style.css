@@ -105,7 +105,29 @@ position: fixed;
   text-align: center;
   line-height: 1;
   color: white;
+  font-weight: normal;
+  font-variant-caps: all-petite-caps;
 }
+
+#onview {
+  position: absolute;
+  top: -325px;
+  left: 100px;
+}
+
+#exhibition {
+  position: absolute;
+  top: 335px;
+  left: 80px;
+}
+
+.adios_content img{
+  width: 150%;
+  position: absolute;
+  top: -150px;
+  left: -25%;
+}
+
 
 /*RIGHT SCROLL SECTION*/
 
@@ -142,6 +164,8 @@ position: fixed;
   margin-bottom: 15px;
 }
 
+
+/********SLIDESHOW********/
 #exhibitions {
   float: left;
 }
@@ -150,7 +174,22 @@ position: fixed;
 float: right;
 }
 
+button {
+  float: right;
+  border: none;
+  margin-right: 5px;
+}
 
+.arrow-right {
+  margin-right: 15px;
+}
+
+.slides {
+  float: left;
+  max-width: 270px;
+  margin-top: 10px;
+  clear: both;
+}
 
 /***NEWS SECTION******/
 .left {
