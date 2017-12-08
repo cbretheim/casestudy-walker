@@ -74,12 +74,13 @@ margin: 0;
 /*ADIOS UTOPIA SECTION*/
 
 .Adios {
-  position: relative;
+float: right;
+position: fixed;
   width: 40%;
   top: 0;
   left: 250px;
   text-align: center;
-  clear: right;
+  clear: left;
 }
 
 .Adios img {
@@ -91,12 +92,13 @@ margin: 0;
 
 
 .right {
-  position: fixed;
+  float: right;
   top: 0;
   right: 0;
   width: 40%;
   max-width: 800px;
   margin: 0 15px;
+  overflow: scroll;
 }
 
 .right article {
