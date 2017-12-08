@@ -10,7 +10,6 @@ body {
   font-size: 15px;
   padding: 0;
   overflow: scroll;
-
 }
 
 
@@ -62,12 +61,13 @@ h1 {
 margin: 0;
 }
 
-#more {
+.bordertext {
   border: 1px solid black;
   text-align: center;
   font-size: 1em;
   font-weight: normal;
   margin: 20px 30px;
+  padding: 0 5px;
 }
 /*END OF SIDEBAR*/
 
@@ -112,4 +112,46 @@ position: fixed;
 
 .right img {
   width: 100%;
+}
+
+.right .bordertext {
+  text-decoration: none;
+  font-size: normal;
+  font-variant-caps: all-petite-caps;
+  color: black;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+#exhibitions {
+  float: left;
+}
+
+#seeall {
+float: right;
+}
+
+
+
+/***NEWS SECTION******/
+.left {
+  float: left;
+  font-family: baskerville;
+}
+
+.author {
+  float: right;
+  font-size: 1em;
+  font-weight: normal;
+  font-variant-caps: all-petite-caps;
+}
+
+.news h1 {
+  clear: both;
+  font-weight: normal;
+  font-size: 1.8em;
+}
+
+.news p {
+  font-family: baskerville, serif;
 }
