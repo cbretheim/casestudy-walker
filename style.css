@@ -27,6 +27,7 @@ body {
 li {
   line-height: 1.2em;
   list-style: none;
+  padding: 5px 0;
 }
 
 li a {
@@ -68,6 +69,12 @@ margin: 0;
   font-weight: normal;
   margin: 20px 30px;
   padding: 0 5px;
+}
+
+.morenav h2{
+  font-weight: normal;
+  position: fixed;
+  bottom: 0;
 }
 /*END OF SIDEBAR*/
 
