@@ -93,6 +93,18 @@ position: fixed;
 .Adios img {
   width: 100%;
   margin: 0;
+  position: relative;
+  z-index: -10;
+  display: block;
+}
+.adios_content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 1;
+  color: white;
 }
 
 /*RIGHT SCROLL SECTION*/
@@ -162,4 +174,5 @@ float: right;
 .news p {
   font-family: baskerville, serif;
   font-size: 1.2em;
+  color: #555;
 }
