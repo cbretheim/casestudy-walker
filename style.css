@@ -7,7 +7,7 @@ html {
 body {
   font-family: avenir, sans-serif;
   position: relative;
-  font-size: 15px;
+  font-size: 16px;
   padding: 0;
   overflow: scroll;
 }
@@ -231,7 +231,7 @@ display: none;}
 .news h1 {
   clear: both;
   font-weight: normal;
-  font-size: 1.8em;
+  font-size: 1.7em;
   color: black;
 }
 
@@ -246,7 +246,7 @@ display: none;}
 
 .news p {
   font-family: "Cormorant Garamond", serif;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #555;
 }
 
