@@ -76,18 +76,21 @@ margin: 0;
   position: fixed;
   bottom: 0;
 }
+
+.sidebar a:hover {
+  color: #999;
+}
 /*END OF SIDEBAR*/
 
 /*ADIOS UTOPIA SECTION*/
 
 .Adios {
-float: right;
 position: fixed;
-  width: 40%;
+width: 40%;
+  min-width: 500px;
   top: 0;
   left: 250px;
   text-align: center;
-  clear: left;
 }
 
 .Adios img {
@@ -135,13 +138,13 @@ position: fixed;
 
 
 .right {
-  float: right;
+position: absolute;
   top: 0;
   right: 0;
   width: 40%;
-  max-width: 800px;
   margin: 0 15px;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 .right article {
@@ -218,7 +221,7 @@ button {
 }
 
 .news p {
-  font-family: baskerville, serif;
+  font-family: Cormorant Garamond, serif;
   font-size: 1.2em;
   color: #555;
 }
