@@ -71,15 +71,24 @@ margin: 0;
   padding: 0 5px;
 }
 
-.morenav h2{
-  font-weight: normal;
-  position: fixed;
-  bottom: 0;
-}
-
 .sidebar a:hover {
   color: #999;
 }
+
+i {
+  position: fixed;
+  bottom: 15px;
+}
+
+#more {
+  font-weight: normal;
+  font-variant-caps: all-petite-caps;
+  font-size: 1.1em;
+  position: fixed;
+  bottom: 0;
+  left: 45px;
+}
+
 /*END OF SIDEBAR*/
 
 /*ADIOS UTOPIA SECTION*/
@@ -162,7 +171,6 @@ position: absolute;
 
 .right .bordertext {
   text-decoration: none;
-  font-size: normal;
   font-variant-caps: all-petite-caps;
   color: black;
   margin: 0;
@@ -227,7 +235,7 @@ display: none;}
 }
 
 .news p {
-  font-family: Cormorant Garamond, serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 1.2em;
   color: #555;
 }
