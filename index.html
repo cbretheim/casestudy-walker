@@ -5,7 +5,6 @@
     <title>Walker Art Center</title>
     <link type="text/css" rel="stylesheet" href="normalize.css">
     <link type="text/css" rel="stylesheet" href="style.css">
-    <link type="text/css" rel="stylesheet" href="main.js">
     <style>
     @font-face {
     font-family: "Cormorant Garamond";
@@ -79,18 +78,25 @@
         <button class="arrow-right" onclick="plusDivs(+1)">&#10095;</button>
         <button class="arrow-left" onclick="plusDivs(-1)">&#10094;</button>
 
+        <div class="slides">
+          <img src="images/slideshow/nairy.png" alt="Nairy Baghramian">
+          <div class="caption">SEP 7, 2017-FEB 4, 2018</div>
+        </div>
 
-        <img class="slides" src="images/slideshow/nairy.png" alt="Nairy Baghramian">
-        <caption>SEP 7, 2017-FEB 4, 2018</caption>
+        <div class="slides">
+          <img src="images/slideshow/iamyouare.png" alt="I am you you are too">
+          <div class="caption">SEP 7, 2017-OCT 27, 2019</div>
+        </div>
 
-        <img class="slides" src="images/slideshow/iamyouare.png" alt="I am you you are too">
-        <caption>SEP 7, 2017-OCT 27, 2019</caption>
+        <div class="slides">
+          <img src="images/slideshow/prouvost.png" alt="Laure Prouvost">
+          <div class="caption">OCT 12, 2017-FEB 11, 2018</div>
+        </div>
 
-        <img class="slides" src="images/slideshow/prouvost.png" alt="Laure Prouvost">
-        <caption>OCT 12, 2017-FEB 11, 2018</caption>
-
-        <img class="slides" src="images/slideshow/adios.png" alt="Adios Utopia">
-        <caption>NOV 7, 2017-MAR 18, 2018</caption>
+        <div class="slides">
+          <img src="images/slideshow/adios.png" alt="Adios Utopia">
+          <div class="caption">NOV 7, 2017-MAR 18, 2018</div>
+        </div>
 
       </article>
 
@@ -124,8 +130,20 @@
         <h1>Performing Grief: Ali Chahrour Brings Shiite Mourning Tradition to the Contemporary Stage</h1>
           <p><q>As a child and for a very long period of my life I was very afraid of Leila because she represented death for me,</q> says Ali Chahrour, on the inspiration for <em>Leila's Death</em>, a new performance work that combines dance, music, storytelling, and theatrical movement. <q>The Shiite way of crying is not just to sit and cry; it's a whole performance with the body. It's engaged. It's very rich about the presence of the body and the voice.</q></p>
         </article>
-
-
     </section>
+
+
+            <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+            <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+            <script src="js/plugins.js"></script>
+            <script src="js/main.js"></script>
+
+            <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+            <script>
+                window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+                ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+            </script>
+            <script src="https://www.google-analytics.com/analytics.js" async defer></script>
   </body>
 </html>

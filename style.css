@@ -192,6 +192,11 @@ button {
 .slideshow {
   overflow: hidden;
   position: relative;
+  max-width: 100%;
+  margin: auto;
+}
+
+.slides {
 }
 
 .slides {
@@ -199,6 +204,10 @@ button {
   max-width: 250px;
   margin-top: 20px;
   clear: both;
+}
+
+.caption {
+  font-variant-caps: all-petite-caps;
 }
 
 /***NEWS SECTION******/
