@@ -1,17 +1,17 @@
 var slideIndex = 1;
-showSlides(slideIndex);
+showslides(slideIndex);
 
 // Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
+function plusslides(n) {
+  showslides(slideIndex += n);
 }
 
 // Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
+function currentslide(n) {
+  showslides(slideIndex = n);
 }
 
-function showSlides(n) {
+function showslides(n) {
   var i;
   var slides = document.getElementsByClassName("slides");
   if (n > slides.length) {slideIndex = 1}
