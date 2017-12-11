@@ -144,8 +144,6 @@ width: 40%;
 
 
 /*RIGHT SCROLL SECTION*/
-
-
 .right {
 position: absolute;
   top: 0;
@@ -216,22 +214,29 @@ display: none;}
 }
 
 /***NEWS SECTION******/
-.left {
-  float: left;
-  font-family: baskerville;
-}
 
 .author {
   float: right;
   font-size: 1em;
   font-weight: normal;
   font-variant-caps: all-petite-caps;
+  text-decoration: underline;
 }
 
 .news h1 {
   clear: both;
   font-weight: normal;
   font-size: 1.8em;
+  color: black;
+}
+
+.news a {
+  text-decoration: none;
+}
+
+.news a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 .news p {
